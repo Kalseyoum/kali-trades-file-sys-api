@@ -5,9 +5,8 @@
 	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
-	<file:config name="File_Config" doc:name="File Config" doc:id="b42ea1ac-9610-4450-99d1-bbdfd8f6f723" >
-		<file:connection workingDir="C:\Equity" />
-	</file:config>
+		
+	
 	<sub-flow name="process-file-sub-Flow" doc:id="e18c9c28-6729-41e0-8b96-6c4fcd93c692" >
 		<logger level="INFO" doc:name="start" doc:id="0f3039d4-9f13-4a4a-be0e-53f29c28f299" message="Request Recieved"/>
 		<choice doc:name="Choice" doc:id="fc18b142-bb17-4d6a-9ca5-6302d2b4f607" >
